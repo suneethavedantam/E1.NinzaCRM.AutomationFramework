@@ -39,7 +39,7 @@ public class CreateContactTest extends BaseClass{
 		
 		Thread.sleep(8000);
 		
-		//Click on Contact Links
+		//Click on Contact Link
 		cp.clickOnContactsLnk();
 		
 		//click on create contact button

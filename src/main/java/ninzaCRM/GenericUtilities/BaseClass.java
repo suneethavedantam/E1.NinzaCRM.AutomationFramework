@@ -15,6 +15,10 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import ninzaCRMObjectRepository.CampaignPage;
+import ninzaCRMObjectRepository.CreateCampaignPage;
+import ninzaCRMObjectRepository.LoginPage;
+
 
 
 /**
@@ -34,7 +38,7 @@ public class BaseClass {
 	//For listeners
 	public static WebDriver sdriver;
 	
-	@BeforeSuite(groups = {"SmokeSuite","RegressionSuite"})
+	@BeforeSuite(alwaysRun=true)//(groups = {"SmokeSuite","RegressionSuite"})
 	public void bsConfig()
 	{
 		System.out.println("======== DB Connection Successfull =========");
@@ -75,8 +79,8 @@ public class BaseClass {
 		String USERNAME = pUtil.readDataFromPropertyFile("username");
 		String PASSWORD = pUtil.readDataFromPropertyFile("password");
 		
-	//	LoginPage lp = new LoginPage(driver);
-	//	lp.loginToApp(USERNAME, PASSWORD);
+		LoginPage lp = new LoginPage(driver);
+		lp.loginToApp(USERNAME, PASSWORD);
 		
 		System.out.println("======== Login to App Successfull =========");
 	}
@@ -86,6 +90,9 @@ public class BaseClass {
 	{
 	//	HomePage hp = new HomePage(driver);
 	//	hp.logoutOfApp(driver);
+		CampaignPage cp=new CampaignPage(driver);
+		cp.logoutOfApp(driver);
+		//CreateCampaignPage ccp= new CreateCampaignPage(driver);
 		
 		System.out.println("======== Logout of App Successfull =========");
 	}

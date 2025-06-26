@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T09:38:51 EDT" name="Default suite" finished-at="2025-06-26T09:39:41 EDT" duration-ms="50823">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T09:38:51 EDT" name="Default test" finished-at="2025-06-26T09:39:41 EDT" duration-ms="50823">
+      <class name="ninzaCRMContactsTests.CreateContactTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:38:51 EDT" name="bsConfig" finished-at="2025-06-26T09:38:51 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:38:51 EDT" name="bcConfig" finished-at="2025-06-26T09:39:03 EDT" duration-ms="12366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:39:03 EDT" name="bmConfig" finished-at="2025-06-26T09:39:03 EDT" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_02_createContactWithCampaign()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:39:03 EDT" name="tc_02_createContactWithCampaign" finished-at="2025-06-26T09:39:33 EDT" duration-ms="29447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_createContactWithCampaign -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:39:33 EDT" name="amConfig" finished-at="2025-06-26T09:39:41 EDT" duration-ms="8286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:39:41 EDT" name="acConfig" finished-at="2025-06-26T09:39:41 EDT" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:ninzaCRMContactsTests.CreateContactTest@3c0be339]" started-at="2025-06-26T09:39:42 EDT" name="asConfig" finished-at="2025-06-26T09:39:42 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- ninzaCRMContactsTests.CreateContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

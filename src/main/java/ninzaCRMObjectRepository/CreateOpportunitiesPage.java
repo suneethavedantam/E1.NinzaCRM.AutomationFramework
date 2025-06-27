@@ -28,6 +28,7 @@ public class CreateOpportunitiesPage extends SeleniumUtility {
 	@FindBy(name = "probability")
 	private WebElement probabilityTxt;
 	
+	
 	@FindBy(xpath = "//*[local-name()='svg']/parent::button")
 	private WebElement selectLeadBtn;
 

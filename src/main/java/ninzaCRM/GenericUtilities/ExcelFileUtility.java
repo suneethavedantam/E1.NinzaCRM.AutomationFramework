@@ -31,5 +31,4 @@ public class ExcelFileUtility {
 		String value = wb.getSheet(sheetName).getRow(rowIndex).getCell(celIndex).getStringCellValue();
 		return value;
 	}
-
 }

@@ -38,6 +38,7 @@ public class CreateContactPage extends SeleniumUtility{
 		PageFactory.initElements(driver, this);
 	}
 
+	
 	public WebElement getContactNameTxt() {
 		return contactNameTxt;
 	}

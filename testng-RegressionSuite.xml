@@ -13,4 +13,5 @@
     <class name="ninzaCRMLeadsTests.CreateLeadTest"></class>
    </classes>
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->

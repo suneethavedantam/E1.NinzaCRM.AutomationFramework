@@ -36,7 +36,6 @@ public class LoginPage {
 		public WebElement getLoginBtn() {
 			return loginBtn;
 		}	
-		
 		//Business Library - Optimization - generic method
 		
 		/**

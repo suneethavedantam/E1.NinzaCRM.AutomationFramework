@@ -21,7 +21,6 @@ public class JavaUtility {
 		String date = dArr[2]+"-"+dArr[1]+"-"+dArr[5]+"_"+dArr[3].replace(":", "-");
 		return date;
 	}
-	
 	/**
 	 * This method will generate random number
 	 * @return

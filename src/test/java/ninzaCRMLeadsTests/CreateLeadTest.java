@@ -20,7 +20,7 @@ public class CreateLeadTest extends BaseClass{
 		String CAMPAIGNNAME = eUtil.readDataFromExcel("Integration", 1, 2)+jUtil.getRandomNumber();
 		System.out.println(CAMPAIGNNAME);
 		String TARGETSIZE = eUtil.readDataFromExcel("Integration", 1, 3);
-		
+			
 		String LEADNAME = eUtil.readDataFromExcel("Integration", 1, 4);
 		String COMPANY = eUtil.readDataFromExcel("Integration", 1, 5);
 		String LEADSOURCE = eUtil.readDataFromExcel("Integration", 1, 6);

@@ -29,7 +29,6 @@ public class ContactsPage {
 	}
 
 	//Business Library
-	
 	/**
 	 * This method will click on create contact button
 	 */
@@ -37,7 +36,6 @@ public class ContactsPage {
 	{
 		createContactBtn.click();
 	}
-	
 	/**
 	 * This method will capture all the Contact names and Compare with required Contact Name
 	 * @param RequiredLeadName

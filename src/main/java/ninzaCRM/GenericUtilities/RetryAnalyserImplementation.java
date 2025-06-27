@@ -14,7 +14,8 @@ public class RetryAnalyserImplementation implements IRetryAnalyzer{
 	int count = 0;
 	int retryCount = 3;//manual analysis
 	
-	public boolean retry(ITestResult result) {
+	public boolean retry(ITestResult result)
+	{
 		   
 		  //0<3 1<3 2<3 3<3-no
 		while(count<retryCount)

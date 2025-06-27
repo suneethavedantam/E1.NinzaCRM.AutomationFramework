@@ -23,7 +23,6 @@ public class LeadsPage {
 	public WebElement getCreateLeadBtn() {
 		return createLeadBtn;
 	}
-
 	public List<WebElement> getLeadNamesTxt() {
 		return LeadNamesTxt;
 	}

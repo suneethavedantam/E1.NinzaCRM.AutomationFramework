@@ -11,4 +11,5 @@
       <class name="ninzaCRMLeadsTests.CreateLeaTest"/>
    </classes>
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->

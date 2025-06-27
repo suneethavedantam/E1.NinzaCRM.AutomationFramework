@@ -24,7 +24,7 @@ public class CreateCampaignPage {
 	public WebElement getCampaignNameTxt() {
 		return campaignNameTxt;
 	}
-
+	
 	public WebElement getTargetSizeTxt() {
 		return targetSizeTxt;
 	}

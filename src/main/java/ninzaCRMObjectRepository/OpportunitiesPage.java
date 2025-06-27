@@ -28,7 +28,6 @@ public class OpportunitiesPage {
 	}
 
 	//Business Library
-	
 	/**
 	 * This method will click on create Opportunity button
 	 */

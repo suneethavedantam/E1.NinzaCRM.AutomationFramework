@@ -27,6 +27,7 @@ public class Practice
 		sUtil.maximizeWindow(driver);
 		sUtil.addimplicitlyWait(driver);
 		
+		
 		driver.get(URL);
 		
 		driver.findElement(By.id("username")).sendKeys(USERNAME);
